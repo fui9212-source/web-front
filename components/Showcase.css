@@ -1,0 +1,133 @@
+.showcase{
+
+    width:90%;
+
+    max-width:1500px;
+
+    margin:180px auto;
+
+}
+
+.showcase-title{
+
+    text-align:center;
+
+    margin-bottom:100px;
+
+}
+
+.showcase-title span{
+
+    color:#3b82f6;
+
+    letter-spacing:4px;
+
+}
+
+.showcase-title h2{
+
+    margin-top:20px;
+
+    font-size:64px;
+
+}
+
+.showcase-item{
+
+    display:grid;
+
+    grid-template-columns:1.3fr 1fr;
+
+    gap:80px;
+
+    align-items:center;
+
+    margin-bottom:140px;
+
+}
+
+.showcase-item.reverse{
+
+    grid-template-columns:1fr 1.3fr;
+
+}
+
+.showcase-item.reverse .showcase-image{
+
+    order:2;
+
+}
+
+.showcase-item.reverse .showcase-text{
+
+    order:1;
+
+}
+
+.showcase-image{
+
+    overflow:hidden;
+
+    border-radius:28px;
+
+}
+
+.showcase-image img{
+
+    width:100%;
+
+    display:block;
+
+    transition:.6s;
+
+}
+
+.showcase-image:hover img{
+
+    transform:scale(1.08);
+
+}
+
+.showcase-text h3{
+
+    font-size:54px;
+
+    margin-bottom:20px;
+
+}
+
+.showcase-text p{
+
+    color:#666;
+
+    line-height:1.8;
+
+    font-size:18px;
+
+    margin-bottom:35px;
+
+}
+
+.showcase-text button{
+
+    background:#111;
+
+    color:white;
+
+    border:none;
+
+    padding:15px 34px;
+
+    border-radius:50px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.showcase-text button:hover{
+
+    background:#0057ff;
+
+}

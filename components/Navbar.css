@@ -1,0 +1,142 @@
+.navbar{
+
+    position:fixed;
+
+    top:0;
+
+    left:0;
+
+    width:100%;
+
+    z-index:1000;
+
+    background:rgba(255,255,255,.75);
+
+    backdrop-filter:blur(18px);
+
+    border-bottom:1px solid rgba(0,0,0,.08);
+
+}
+
+
+.navbar-container{
+
+    width:90%;
+
+    max-width:1400px;
+
+    height:85px;
+
+    margin:auto;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+}
+
+
+.brand{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:15px;
+
+    text-decoration:none;
+
+    color:#111;
+
+}
+
+
+.logo{
+
+    width:46px;
+
+}
+
+
+.brand-text{
+
+    display:flex;
+
+    flex-direction:column;
+
+}
+
+
+.brand-title{
+
+    font-size:22px;
+
+    font-weight:700;
+
+}
+
+
+.brand-sub{
+
+    font-size:13px;
+
+    color:#777;
+
+}
+
+
+.menu{
+
+    display:flex;
+
+    gap:45px;
+
+}
+
+
+.menu a{
+
+    text-decoration:none;
+
+    color:#222;
+
+    font-size:15px;
+
+    transition:.3s;
+
+    cursor:pointer;
+
+}
+
+
+.menu a:hover{
+
+    color:#0057ff;
+
+}
+
+
+.login-btn{
+
+    text-decoration:none;
+
+    padding:12px 28px;
+
+    border-radius:50px;
+
+    background:#111;
+
+    color:white;
+
+    transition:.35s;
+
+}
+
+
+.login-btn:hover{
+
+    background:#0057ff;
+
+}   
