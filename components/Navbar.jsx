@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import logo from "../pic/iiSD_logo_only_Emblem.DHc3DEp8.png";
+import logo from "../pic/IITCLOGO.png";
 import "./Navbar.css";
 
 export default function Navbar() {
@@ -21,7 +21,7 @@ export default function Navbar() {
           <div className="brand-text">
 
             <span className="brand-title">
-              IISD
+              IITC
             </span>
 
             <span className="brand-sub">
@@ -52,7 +52,7 @@ export default function Navbar() {
           to="/login"
           className="login-btn"
         >
-          Sign In
+          Login
         </Link>
 
       </div>

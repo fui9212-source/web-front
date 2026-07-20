@@ -55,7 +55,7 @@
 
 .logo{
 
-    width:46px;
+    width:58px;
 
 }
 
@@ -122,6 +122,8 @@
 
     text-decoration:none;
 
+    margin-right:120px;
+
     padding:12px 28px;
 
     border-radius:50px;
@@ -140,3 +142,13 @@
     background:#0057ff;
 
 }   
+
+.ai_icon{
+
+    width:20px;
+
+    height:20px;
+
+    margin-right:5px;
+
+}
